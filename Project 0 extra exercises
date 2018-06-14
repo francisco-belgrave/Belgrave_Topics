@@ -1,0 +1,11 @@
+For the Guided Project: Explore U.S. Births.
+
+1. Create a new folder in the github repo called <YOURNAME>-Projects and inside of it create a new folder called Project 0 - Explore U.S. Births
+Create. Inside of it create the jupyter notebook where you will develop your project.
+
+Work through the project steps and the extra work a the last step.
+
+After done with the project and the extra questions.
+1. Create a function that calculates the mean number of births for a given year/month/week? Try to make  make it in one only function that given a parameter calculates it for year, month or week.
+2. Create a function that calculates the differences between the 2 datasets for every given date.
+
