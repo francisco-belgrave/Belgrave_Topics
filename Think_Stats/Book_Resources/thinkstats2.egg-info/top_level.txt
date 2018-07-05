@@ -1,0 +1,2 @@
+thinkplot
+thinkstats2
