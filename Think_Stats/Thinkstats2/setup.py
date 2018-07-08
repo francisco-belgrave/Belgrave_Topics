@@ -6,7 +6,7 @@ setup(name='thinkstats2',
       description="Library code for Think Stats, 2nd Edition packaged",
       author='Allen Downey',
       license="GPLv3",
-      py_modules=['thinkstats2', 'thinkplot'],
+      py_modules=['thinkstats2', 'thinkplot','nsfg'],
       url='https://github.com/AllenDowney/ThinkStats2',
       install_requires=[
           'matplotlib',

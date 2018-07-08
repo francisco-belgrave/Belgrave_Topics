@@ -1,3 +1,0 @@
-Run this code from the command line within the Thinkstats2 folder to be able to use all the packages.
-
-sudo python3 setup.py install

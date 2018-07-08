@@ -1,3 +1,4 @@
+nsfg.py
 setup.py
 thinkplot.py
 thinkstats2.py
