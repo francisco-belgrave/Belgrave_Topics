@@ -1,0 +1,9 @@
+nsfg.py
+setup.py
+thinkplot.py
+thinkstats2.py
+thinkstats2.egg-info/PKG-INFO
+thinkstats2.egg-info/SOURCES.txt
+thinkstats2.egg-info/dependency_links.txt
+thinkstats2.egg-info/requires.txt
+thinkstats2.egg-info/top_level.txt
