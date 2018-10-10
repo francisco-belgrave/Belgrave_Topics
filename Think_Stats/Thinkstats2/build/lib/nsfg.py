@@ -16,7 +16,8 @@ from collections import defaultdict
 
 def ReadFemResp(dct_file='2002FemResp.dct',
                 dat_file='2002FemResp.dat.gz',
-                nrows=None):
+                nrows=None,
+		clean = True):
     """Reads the NSFG respondent data.
 
     dct_file: string file name
@@ -26,7 +27,8 @@ def ReadFemResp(dct_file='2002FemResp.dct',
     """
     dct = thinkstats2.ReadStataDct(dct_file)
     df = dct.ReadFixedWidth(dat_file, compression='gzip', nrows=nrows)
-    CleanFemResp(df)
+    if clean == True:		
+    	CleanFemResp(df)
     return df
 
 
@@ -39,7 +41,8 @@ def CleanFemResp(df):
 
 
 def ReadFemPreg(dct_file='2002FemPreg.dct',
-                dat_file='2002FemPreg.dat.gz'):
+                dat_file='2002FemPreg.dat.gz',
+		clean = True):
     """Reads the NSFG pregnancy data.
 
     dct_file: string file name
@@ -49,7 +52,8 @@ def ReadFemPreg(dct_file='2002FemPreg.dct',
     """
     dct = thinkstats2.ReadStataDct(dct_file)
     df = dct.ReadFixedWidth(dat_file, compression='gzip')
-    CleanFemPreg(df)
+    if clean == True:
+    	CleanFemPreg(df)
     return df
 
 
