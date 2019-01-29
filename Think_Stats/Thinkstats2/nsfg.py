@@ -38,9 +38,9 @@ def CleanFemResp(df):
     pass
 
 
-def ReadFemPreg(dct_file='../Think_Stats/Thinkstats2/2002FemPreg.dct',
+def ReadFemPreg(dct_file='class/Github/Belgrave_Topics/Think_Stats/Thinkstats2/2002FemPreg.dct',
                 dat_file='Thinkstats2/2002FemPreg.dat.gz',
-		clean = False):
+                clean = True):
     """Reads the NSFG pregnancy data.
 
     dct_file: string file name
@@ -50,7 +50,7 @@ def ReadFemPreg(dct_file='../Think_Stats/Thinkstats2/2002FemPreg.dct',
     """
     dct = thinkstats2.ReadStataDct(dct_file)
     df = dct.ReadFixedWidth(dat_file, compression='gzip')
-    if clean == True:
+    if clean:
         CleanFemPreg(df)
     return df
 
