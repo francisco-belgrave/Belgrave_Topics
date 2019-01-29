@@ -9,7 +9,7 @@ from __future__ import print_function
 
 import numpy as np
 
-import hinc
+from Thinkstats2 import hinc
 import thinkplot
 import thinkstats2
 
