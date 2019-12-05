@@ -10,10 +10,10 @@ from __future__ import print_function
 import numpy as np
 import sys
 
-import nsfg
-import first
-import thinkstats2
-import thinkplot
+from Resources.Think_Stats.Thinkstats2 import nsfg
+from Resources.Think_Stats.Thinkstats2 import first
+from Resources.Think_Stats.Thinkstats2 import thinkstats2
+from Resources.Think_Stats.Thinkstats2 import thinkplot
 
 
 def PmfMean(pmf):

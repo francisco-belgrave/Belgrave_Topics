@@ -10,8 +10,8 @@ from __future__ import print_function
 import sys
 from operator import itemgetter
 
-import first
-import thinkstats2
+from Resources.Think_Stats.Thinkstats2 import first
+from Resources.Think_Stats.Thinkstats2 import thinkstats2
 
 
 def Mode(hist):
