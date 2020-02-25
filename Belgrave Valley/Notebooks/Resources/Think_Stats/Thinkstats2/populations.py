@@ -17,7 +17,7 @@ from Resources.Think_Stats.Thinkstats2 import thinkplot
 from Resources.Think_Stats.Thinkstats2 import thinkstats2
 
 
-def ReadData(filename='Thinkstats2/PEP_2012_PEPANNRES_with_ann.csv'):
+def ReadData(filename='Resources/Think_Stats/Thinkstats2/PEP_2012_PEPANNRES_with_ann.csv'):
     """Reads filename and returns populations in thousands
 
     filename: string
