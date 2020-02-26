@@ -26,7 +26,7 @@ def Clean(s):
         return None
 
 
-def ReadData(filename='Thinkstats2/hinc06.csv'):
+def ReadData(filename='Resources/Think_Stats/Thinkstats2/hinc06.csv'):
     """Reads filename and returns populations in thousands
 
     filename: string

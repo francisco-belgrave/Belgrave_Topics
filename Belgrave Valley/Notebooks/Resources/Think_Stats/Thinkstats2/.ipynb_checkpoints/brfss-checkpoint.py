@@ -55,7 +55,7 @@ def CleanBrfssFrame(df):
     df['wtyrago'] = df.wtyrago.apply(lambda x: x/2.2 if x < 9000 else x-9000)
 
 
-def ReadBrfss(filename='CDBRFS08.ASC.gz', compression='gzip', nrows=None):
+def ReadBrfss(filename='Resources/Think_Stats/Thinkstats2/CDBRFS08.ASC.gz', compression='gzip', nrows=None):
     """Reads the BRFSS data.
 
     filename: string
