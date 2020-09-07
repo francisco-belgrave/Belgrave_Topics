@@ -47,7 +47,7 @@ def CleanLine(line):
     return place, divtot, div, gun, net, pace
 
 
-def ReadResults(filename='Apr25_27thAn_set1.shtml'):
+def ReadResults(filename='Resources/Think_Stats/Thinkstats2/Apr25_27thAn_set1.shtml'):
     """Read results from a file and return a list of tuples."""
     results = []
     for line in open(filename):
